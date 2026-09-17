@@ -1,5 +1,5 @@
 {
-	"BUILD_DIR" : "/mnt/build/hello_static_autogen",
+	"BUILD_DIR" : "/mnt/build/hello_label_autogen",
 	"CMAKE_BINARY_DIR" : "/mnt/build",
 	"CMAKE_CURRENT_BINARY_DIR" : "/mnt/build",
 	"CMAKE_CURRENT_SOURCE_DIR" : "/mnt",
@@ -177,12 +177,20 @@
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake"
 	],
 	"CMAKE_SOURCE_DIR" : "/mnt",
-	"DEP_FILE" : "/mnt/build/hello_static_autogen/deps",
-	"DEP_FILE_RULE_NAME" : "hello_static_autogen/timestamp",
-	"HEADERS" : [],
+	"DEP_FILE" : "/mnt/build/hello_label_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "hello_label_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"/mnt/label_printer.h",
+			"Mu",
+			"EWIEGA46WW/moc_label_printer.cpp",
+			null
+		]
+	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/mnt/build/hello_static_autogen/include",
-	"MOC_COMPILATION_FILE" : "/mnt/build/hello_static_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "/mnt/build/hello_label_autogen/include",
+	"MOC_COMPILATION_FILE" : "/mnt/build/hello_label_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_NO_DEBUG", "QT_WIDGETS_LIB" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
@@ -226,20 +234,21 @@
 		"-c",
 		"/usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/mnt/build/hello_static_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/mnt/build/hello_label_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
-	"MOC_SKIP" : [],
+	"MOC_SKIP" : [ "/mnt/build/hello_static_autogen/mocs_compilation.cpp" ],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 11,
-	"PARSE_CACHE_FILE" : "/mnt/build/CMakeFiles/hello_static_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/mnt/build/CMakeFiles/hello_label_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/usr/lib/qt6/libexec/moc",
 	"QT_UIC_EXECUTABLE" : "",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 4,
-	"SETTINGS_FILE" : "/mnt/build/CMakeFiles/hello_static_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/mnt/build/CMakeFiles/hello_label_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/mnt/hello_static.cpp", "Mu", null ]
+		[ "/mnt/hello_label.cpp", "Mu", null ],
+		[ "/mnt/label_printer.cpp", "Mu", null ]
 	],
 	"VERBOSITY" : 0
 }

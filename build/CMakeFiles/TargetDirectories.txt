@@ -1,5 +1,8 @@
 /mnt/build/CMakeFiles/hello_static.dir
+/mnt/build/CMakeFiles/hello_label.dir
 /mnt/build/CMakeFiles/edit_cache.dir
 /mnt/build/CMakeFiles/rebuild_cache.dir
 /mnt/build/CMakeFiles/hello_static_autogen_timestamp_deps.dir
 /mnt/build/CMakeFiles/hello_static_autogen.dir
+/mnt/build/CMakeFiles/hello_label_autogen_timestamp_deps.dir
+/mnt/build/CMakeFiles/hello_label_autogen.dir
